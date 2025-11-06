@@ -15,7 +15,7 @@ Abra `index.html` localmente. Para SPA funcionar, use `#/home`, `#/projetos`, `#
 `npm install` e `npm run build`.
 
 ## Links públicos (simulados)
-- AE1: https://github.com/SEU_USUARIO/AE1-Projeto-ONG
-- AE2: https://github.com/SEU_USUARIO/AE2-Projeto-ONG
-- AE3: https://github.com/SEU_USUARIO/AE3-Projeto-ONG
-- AE4: https://github.com/SEU_USUARIO/AE4-Projeto-ONG
+- AE1: https://github.com/anchirleni-cmd/AE1
+- AE2: https://github.com/anchirleni-cmd/AE2
+- AE3: https://github.com/anchirleni-cmd/AE3
+- AE4: https://github.com/anchirleni-cmd/AE4
