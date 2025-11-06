@@ -1,0 +1,2 @@
+const KEY='cadastro-draft';export function saveDraft(f){const d=Object.fromEntries(new FormData(f).entries());localStorage.setItem(KEY,JSON.stringify(d))}
+export function restoreDraft(f){const r=localStorage.getItem(KEY);if(!r)return;const d=JSON.parse(r);Object.entries(d).forEach(([k,v])=>{const el=f.querySelector(`[name="${k}"]`);if(el){if(el.type==='checkbox')el.checked=!!v;else el.value=v}})}

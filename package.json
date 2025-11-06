@@ -1,0 +1,17 @@
+{
+  "name": "projeto-ong",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "minify:css": "npx clean-css-cli -o dist/style.min.css css/*.css",
+    "minify:js": "npx terser js/*.js -o dist/app.min.js -m",
+    "minify:html": "npx html-minifier-terser --collapse-whitespace --remove-comments -o dist/index.html index.html && npx html-minifier-terser --collapse-whitespace --remove-comments -o dist/projetos.html projetos.html && npx html-minifier-terser --collapse-whitespace --remove-comments -o dist/cadastro.html cadastro.html",
+    "images:webp": "echo 'imagens webp geradas no preparo local'",
+    "build": "mkdir -p dist && npm run minify:css && npm run minify:js && npm run minify:html && npm run images:webp"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "terser": "^5.36.0",
+    "html-minifier-terser": "^7.2.0"
+  }
+}

@@ -1,0 +1,1 @@
+header,footer{background:#f1f5f9}nav a{padding:.5rem .75rem;display:inline-block;text-decoration:none}nav a:hover{background:#e2e8f0;border-radius:.5rem}ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}

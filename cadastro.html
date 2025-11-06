@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ONG - Cadastro</title>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+<header>
+  <nav aria-label="Principal">
+    <a href="#/home">Início</a> | <a href="#/projetos">Projetos</a> | <a href="#/cadastro">Cadastro</a>
+  </nav>
+</header>
+<main id="conteudo">
+
+<h1>Cadastro de Voluntários</h1>
+<figure>
+  <img src="imagens/cadastro-banner.jpg" alt="Voluntários sorridentes com as mãos unidas" width="1280">
+</figure>
+<form>
+  <label>Nome <input name="nome" required></label><br>
+  <label>E-mail <input name="email" type="email" required></label><br>
+  <label>CPF <input name="cpf" required></label><br>
+  <label>Telefone <input name="telefone" required></label><br>
+  <label>Data de Nascimento <input type="date" name="nascimento" required></label><br>
+  <label>CEP <input name="cep" required></label><br>
+  <label>Cidade <input name="cidade" required></label><br>
+  <label>Estado <input name="estado" required></label><br>
+  <label><input type="checkbox" required> Concordo com os termos</label><br>
+  <button type="submit">Enviar</button>
+</form>
+
+</main>
+<footer>
+  <p>&copy; <span id="ano">2025</span> ONG Exemplo</p>
+</footer>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

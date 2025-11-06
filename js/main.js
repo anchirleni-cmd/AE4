@@ -1,0 +1,1 @@
+import{mount}from'./spa.js';document.addEventListener('DOMContentLoaded',mount);
